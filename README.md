@@ -13,7 +13,7 @@ tensorflow：2.9.1<br /><br />
 2. /save_models：保存训练好的模型权重文件<br /><br />
 
 实现自己的自定义RNN：<br />
-Keras实现自定循环神经网络需要：
+Keras实现自定义循环神经网络需要：<br />
 1.实现RnnCell，注意需要定义rnn的状态参数维度：self.state_size<br />
 2.将实现好的RnnCell作为参数cell传入RNN()，让Keras自动推断每个状态的传递过程<br /><br />
 
